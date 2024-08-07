@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Jane Doe</title>
+    <link rel="stylesheet" href="personal_portfolio.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <!-- Home Page Section -->
+    <header>
+        <h1>Jane Doe's Portfolio</h1>
+        <p>Welcome to my portfolio website! I am a web developer with a passion for creating beautiful and functional websites.</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Jane Doe, a web developer with over 5 years of experience in building responsive and user-friendly websites.</p>
+        <h3>Skills:</h3>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript & jQuery</li>
+            <li>React & Node.js</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal website showcasing my work and skills.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Todo List App</h3>
+            <p>A simple todo list application built with React.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>An app that provides weather updates using the OpenWeather API.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-message"></p> <!-- For displaying validation messages -->
+    </section>
+
+    <script src="personal_portfolio.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
