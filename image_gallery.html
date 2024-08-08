@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="image_gallery.css">
+</head>
+<body>
+    <div class="gallery">
+        <!-- Gallery Thumbnails -->
+        <div class="thumbnail">
+            <img src="https://shorturl.at/vQS7O" alt="Image 1" data-full="image1.jpg">
+        </div>
+        <div class="thumbnail">
+            <img src="https://shorturl.at/WMhUc" alt="Image 2" data-full="image2.jpg">
+        </div>
+        <div class="thumbnail">
+            <img src="https://shorturl.at/mlZV0" alt="Image 3" data-full="image3.jpg">
+        </div>
+        <!-- Add more thumbnails as needed -->
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="image_gallery.js"></script>
+</body>
+</html>

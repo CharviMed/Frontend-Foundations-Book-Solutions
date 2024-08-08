@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="nav_menu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Logo section -->
+            <div class="logo">MySite</div>
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Navigation menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">About</a>
+                    <!-- Dropdown menu for "About" -->
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Our Story</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <!-- Dropdown menu for "Services" -->
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">SEO</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="nav_menu.js"></script>
+</body>
+</html>
